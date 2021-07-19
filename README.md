@@ -1,0 +1,1 @@
+WORD MEANING is a Chrome extension that allows you to lookup the definition and pronunciation of any word using the WordNik API.

@@ -1,0 +1,2 @@
+npm install -g json
+npm install request
