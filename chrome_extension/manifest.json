@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Word Meaning",
+    "version": "1.0",
+    "description": "This is a simple extension that displays your meaning of a word.",
+    "author": "priyanshi jain",
+    "icons":{
+        "128": "icon128.png",
+        "48" :"icon48.png",
+        "16" : "icon16.jpg"
+    },
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon" : "icon16.jpg"
+    },
+     "content_security_policy":   "script-src 'self' https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js  object-src 'self'",
+    "permissions": [
+      "activeTab",
+      "<all_urls>"
+    ]
+  }
